@@ -15,7 +15,7 @@ def run_timfirst():
     # [END vision_python_migration_client]
 
     # The name of the image file to annotate
-    file_name = os.path.abspath('mepic.jpg')
+    file_name = os.path.abspath('resources/mepic.jpg')
 
     # Loads the image into memory
     with io.open(file_name, 'rb') as image_file:
