@@ -32,7 +32,7 @@ def run_quickstart():
     # [END vision_python_migration_client]
 
     # The name of the image file to annotate
-    file_name = os.path.abspath('resources/wakeupcat.jpg')
+    file_name = os.path.abspath('resources/stalker.jpg')
 
     # Loads the image into memory
     with io.open(file_name, 'rb') as image_file:
